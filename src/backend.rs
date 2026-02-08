@@ -5,8 +5,7 @@ use std::f32::consts::FRAC_PI_2;
 use std::fmt::{Display, Formatter, Result as FmtResult};
 use std::ops::{Add, AddAssign, MulAssign, Sub, SubAssign};
 
-use egui::load::SizedTexture;
-use egui::{pos2, vec2, Painter, TextureId, Vec2};
+use egui::{pos2, vec2, Painter, TextureId};
 use egui::{
     epaint::{PathShape, TextShape},
     Align, Align2, Color32, FontFamily as EguiFontFamily, FontId, Pos2, Rect, Stroke, Ui, CornerRadius,

@@ -8,7 +8,7 @@ pub use backend::{EguiBackend, EguiBackendError, BgImageSize};
 pub use chart::{
     Chart, MouseButton, MouseConfig, Transform, DEFAULT_MOVE_SCALE, DEFAULT_SCROLL_SCALE,
 };
-use egui::{Response, Sense, Ui, UiBuilder, Widget};
+use egui::{Ui, UiBuilder, Widget};
 
 #[cfg(feature = "timechart")]
 use std::ops::Range;
